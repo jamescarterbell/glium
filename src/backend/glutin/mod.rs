@@ -11,6 +11,7 @@ Only available if the 'glutin' feature is enabled.
 pub extern crate glutin;
 
 pub mod headless;
+pub mod raw;
 
 use takeable_option::Takeable;
 use {Frame, IncompatibleOpenGl, SwapBuffersError};
